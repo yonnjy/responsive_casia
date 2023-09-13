@@ -2,19 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     font-size: inherit;
     font-weight: inherit;
 }
 
-
 *::before,
 *::after {
     box-sizing: border-box;
-}
-
-body {
-    line-height: 1;
-    color: #444;
 }
 
 ul,
@@ -29,12 +24,17 @@ a {
 }
 
 img {
-    max-width: 100%;
     vertical-align: middle;
+    max-width: 100%;
 }
 
 p {
     word-break: keep-all;
+}
+
+body {
+    line-height: 1;
+    color: #444;
 }
 
 em,
